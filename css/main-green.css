@@ -1508,12 +1508,20 @@ body > footer .copyrights {
   right: 0;
   bottom: 0;
   background-color: #1db954;
-  opacity: 0.8;
+  opacity: 0.6;
   z-index: 0;
 }
 
 .portfolio-grid figure:nth-child(even) a div:before {
-  background-color: #9e51f3;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1db954;
+  opacity: 0.4;
+  z-index: 0;
 }
 
 .portfolio-grid figure a:hover div {
@@ -1549,15 +1557,12 @@ body > footer .copyrights {
   display: block;
   padding: 10px 0;
   text-transform: uppercase;
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1),
-    0 -10px 0 rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1),
-    0 -10px 0 rgba(255, 255, 255, 0.3);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  color: #000;
+}
+
+.project-description {
+  color: #000;
 }
 /* End of Direction-Aware Hover Effect */
 
